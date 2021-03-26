@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[2],{QeBL:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t.n(a),o=t("Ty5D");n["default"]=function(){return c.a.createElement(o["c"],{to:"/database"})}}}]);
