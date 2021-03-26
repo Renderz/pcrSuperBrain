@@ -4,12 +4,13 @@
 /node_modules
 /npm-debug.log*
 /yarn-error.log
-/yarn.lock
+# /yarn.lock
 /package-lock.json
 /node_modules.zip
 
 # production
-# /dist
+/dist
+dist.zip
 
 # misc
 .DS_Store
