@@ -36,6 +36,8 @@ const proxy = {
 
 // ref: https://umijs.org/config/
 const config: IConfig = {
+  publicPath: '/statics/',
+  base: '/statics/',
   history: 'hash',
   ignoreMomentLocale: true,
   treeShaking: true,

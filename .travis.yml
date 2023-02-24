@@ -1,0 +1,27 @@
+language: node_js
+
+node_js: '12'
+
+branches:
+  only:
+    - main
+
+git:
+  quite: true
+  depth: 1
+  submodules: false
+
+cache:
+  directories:
+    - node_modules
+
+install: yarn
+
+script: yarn build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: ./dist/
+  on: main
